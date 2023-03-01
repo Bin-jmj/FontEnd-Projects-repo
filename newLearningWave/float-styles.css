@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.menu {
+    height: 100px;
+    background-color: #b2d6ff;
+}
+.sidebar {
+    
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #f5cfbe;
+}
+.content {
+    float: left;
+    width: 650px;
+    height: 500px;
+    background-color: #f09a9d;
+}
+.footer {
+    clear: both;
+    height: 200px;
+    background-color: #d6e6e9fe;
+}

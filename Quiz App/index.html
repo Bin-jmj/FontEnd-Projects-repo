@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    
+    <div class="start_btn"><button>Anza jaribio</button></div>
+
+    <!-- info box -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Masharti na sheria za Jaribio</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1.Utakuwa na  <span>sekude 15</span> tu kwa kila swali</div>
+            <div class="info">2.Baada ya kuchagua jawabu hautaweza kubadili</div>
+            <div class="info">3.Hautaweza kuchagua jawabu baada ya muda kuisha</div>
+            <div class="info">4.Hautaweza kutoka baada ya jaribio kuanza</div>
+            <div class="info">5.Maksi zitakuwa kulingana na jawabu sahihi</div>
+        
+        </div>
+        <div class="buttons">
+            <button class="quit">Toka</button>
+            <button class="restart">Endelea</button>
+        </div>
+    </div>
+
+    <!-- end of info box -->
+
+    <!-- Quiz box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Programu ya Majaribio</div>
+            <div class="timer">
+                <div class="timer_left_txt">Muda Uliobakia</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+
+        <section>
+            <div class="que_text">
+                <span>What does HTML stands for?</span>
+                <div class="option_list">
+                    <div class="option">
+                        <span>Hyper Text Makeup Language</span>
+                        <div class="icon tick"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Makeup Language</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Makeup Language</span>
+                        <!-- <div class="icon cross"><i class="fas fa-check"></i></div> -->
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Makeup Language</span>
+                        <!-- <div class="icon tick"><i class="fas fa-check"></i></div> -->
+                    </div>
+                </div>  
+            </div>      
+        </section>
+
+        <!-- footer of quiz box -->
+        <footer>
+            <div class="total_que">
+                <span><p>2</p>of<p>5</p>Questions</span>
+                <!-- questions count number inserted using js -->
+            </div>
+            <button class="next_btn">Swali Jengine</button>
+        </footer>
+    </div>
+    <!-- end of quiz box -->
+
+    <!-- result box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Hongera Umefanikiwa kumaliza Jaribio</div>
+        <div class="score_text">
+            <span>umepata maswali<p>3</p>kati ya<p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Rudia Jaribio</button>
+            <button class="quit">Hairisha Jaribio</button>
+        </div>
+    </div>
+
+    <!-- this is for questions and option only inserted using js -->
+    <script src="js/questions.js"></script>
+    <!-- js code for all quiz -->
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>
